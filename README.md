@@ -3,6 +3,11 @@ A Python script to discover subdomains for domains listed in a text file using S
 
 pip install -r requirements.txt
 
+## Requirements
+
+- Python 3.x
+- [Sublist3r](https://github.com/aboul3la/Sublist3r) tool installed.
+
 python3 subdomain_discovery.py
 
 This Python script uses Sublist3r to discover subdomains and creates a text file with the main domain’s name. The script processes a list of domains, performs subdomain enumeration for each, and saves the results in individual text files named after the main domain.
